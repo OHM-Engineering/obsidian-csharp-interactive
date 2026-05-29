@@ -1,4 +1,4 @@
-# C# Snippet Runner
+# CSharp Snippet Runner
 
 Obsidian plugin that adds a run button to C# code blocks. It uses CSharpRepl to execute the snippets and displays the output directly in the note.
 
