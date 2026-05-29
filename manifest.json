@@ -1,6 +1,6 @@
 {
 	"id": "csharp-snippet-runner",
-	"name": "C# Snippet Runner",
+	"name": "CSharp Snippet Runner",
 	"version": "1.0.0",
 	"minAppVersion": "1.12.7",
 	"description": "Run C# code blocks in Obsidian using an auto-installed CSharpRepl runtime.",
