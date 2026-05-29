@@ -1,7 +1,7 @@
 {
 	"id": "csharp-snippet-runner",
 	"name": "CSharp Snippet Runner",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "1.12.7",
 	"description": "Run C# code blocks using an auto-installed CSharpRepl runtime.",
 	"author": "OHM Engineering",
