@@ -3,7 +3,7 @@
 	"name": "CSharp Snippet Runner",
 	"version": "1.0.0",
 	"minAppVersion": "1.12.7",
-	"description": "Run C# code blocks in Obsidian using an auto-installed CSharpRepl runtime.",
+	"description": "Run C# code blocks using an auto-installed CSharpRepl runtime.",
 	"author": "OHM Engineering",
 	"authorUrl": "https://github.com/OHM-Engineering",
 	"isDesktopOnly": false
