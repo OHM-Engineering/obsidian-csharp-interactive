@@ -1,5 +1,5 @@
 {
-	"name": "obsidian-csharp-snippet-runner",
+	"name": "csharp-snippet-runner",
 	"version": "1.0.0",
 	"description": "Obsidian plugin to run C# code blocks with CSharpRepl",
 	"main": "main.js",
