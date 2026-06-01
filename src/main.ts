@@ -283,7 +283,11 @@ export default class CSharpSnippetRunnerPlugin extends Plugin {
 				clearTimeout(timeoutHandle);
 
 				if (timedOut) {
-					resolve({ stdout, stderr });
+                    const timeoutError = new Error(`CSharpRepl execution timed out after ${timeoutMs}ms. Increase the timeout setting and try again.`) as ReplExecutionError;
+					timeoutError.code = 'ETIMEDOUT';
+					timeoutError.stdout = stdout;
+					timeoutError.stderr = stderr;
+					reject(timeoutError);
 					return;
 				}
 

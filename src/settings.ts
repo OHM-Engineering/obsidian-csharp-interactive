@@ -6,7 +6,7 @@ export interface CSharpSnippetSettings {
 }
 
 export const DEFAULT_SETTINGS: CSharpSnippetSettings = {
-	executionTimeoutMs: 3000,
+   executionTimeoutMs: 10000,
 };
 
 export class CSharpSnippetSettingTab extends PluginSettingTab {
@@ -29,7 +29,7 @@ export class CSharpSnippetSettingTab extends PluginSettingTab {
           .setName('Execution timeout (ms)')
           .setDesc('Maximum time to wait before stopping execution and returning captured output.')
 			.addText((text) => text
-				.setPlaceholder('3000')
+             .setPlaceholder('10000')
 				.setValue(String(this.plugin.settings.executionTimeoutMs))
 				.onChange(async (value) => {
 					const parsed = Number.parseInt(value, 10);
